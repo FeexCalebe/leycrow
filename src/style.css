@@ -255,15 +255,15 @@ html.lenis {
 }
 
 .jacket-img {
-  background-image: url('/leycrow/assets/jacket.png');
+  background-image: url('/assets/jacket.png');
 }
 
 .hoodie-img {
-  background-image: url('/leycrow/assets/hoodie.png');
+  background-image: url('/assets/hoodie.png');
 }
 
 .cargo-img {
-  background-image: url('/leycrow/assets/cargo.png');
+  background-image: url('/assets/cargo.png');
 }
 
 .item-info {
