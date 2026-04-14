@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEYCROW | MAGAZINE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/magazine.css" />
+  </head>
+  <body class="mag-body">
+    <!-- Efeito físico de ruido em cima da tela -->
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation Especial -->
+    <nav class="navbar">
+      <div class="logo">
+         <a href="/index.html"><img src="/assets/logo_transparent.png" class="nav-logo-img" alt="Leycrow" /></a>
+      </div>
+      <div class="nav-links">
+        <a href="/index.html#origins">DROP 001</a>
+        <a href="/ethos.html">ETHOS</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/magazine.html">MAGAZINE</a>
+      </div>
+    </nav>
+
+    <!-- Estrutura Principal -->
+    <main class="magazine-container">
+      
+      <!-- Lado Esquerdo: O Sumário (Sticky TOC) -->
+      <aside class="mag-sidebar">
+        <h3 class="sidebar-title">ÍNDICE DE INSANIDADE // VOL. 1</h3>
+        <ul class="toc-list">
+          <li><a href="#art-1">I. A ILUSÃO VERDE</a></li>
+          <li><a href="#art-2">II. ARQUITETURA DO CONTROLE</a></li>
+          <li><a href="#art-3">III. FOME PELO SINTÉTICO</a></li>
+        </ul>
+      </aside>
+
+      <!-- Lado Direito: Os Artigos em Cascata -->
+      <section class="mag-content">
+        
+        <!-- Capa Editorial da Publicação -->
+        <div class="vol-cover">
+          <h1 class="vol-number">LEYCROW MAG</h1>
+          <p class="sidebar-title" style="border: none;">ISSUE 001 — VENDENDO O ANTICRISTO NO SHOPPING</p>
+        </div>
+
+        <!-- Artigo 1 -->
+        <article class="editorial-piece" id="art-1">
+          <h2 class="editorial-title">COMO COMPRAR UMA ECOBAG DE US$500 PARA SALVAR SEUS PRÓPRIOS SENTIMENTOS</h2>
+          <div class="editorial-body">
+            <p>O mercado adorou descobrir que a classe média alta sente culpa existencial por destruir o planeta sem querer. A resposta imediata da corporação benevolente? Vender garrafas de água reutilizáveis que desviam a atenção para a responsabilidade individual, e canudos de aço que produzem mais pegada de carbono para fabricar do que seriam capazes de salvar se você não soubesse mastigar um copo de plástico.</p>
+            <p>Tudo está meticulosamente planejado pelas marcas para massagear o seu ego de consumidor. Na Leycrow, nós nos recusamos a embalar o nosso elitismo num saco pardo barato de papelão reciclado. Nossas peças pesam o necessário para rasgar suas costas, criando um manto esteticamente perfeito entre você e a impiedosa hipocrisia de engravatados que voam de jatinho privado até Copenhague só para discursar sobre derretimento das calotas polares. Pelo menos a nossa honestidade brutal tem silhueta impecavelmente estruturada.</p>
+          </div>
+        </article>
+
+        <!-- Artigo 2 -->
+        <article class="editorial-piece" id="art-2">
+          <h2 class="editorial-title">O SEU ESCRITÓRIO COM MESA DE PING-PONG AINDA É UMA PRISÃO</h2>
+          <div class="editorial-body">
+            <p>A mais bela e perversa mentira da tecnologia moderna foi substituir as baixas cinzentas da era de ouro pelo brilho pálido e alienante de pufes felpudos multicoloridos e potes de aveia orgânica gratuitos estrategicamente alinhados na copa envidraçada. Eles jamais mudaram ou flexibilizaram o modelo base de sua exploração capitalista. Tudo que a nova elite dominante da tecnologia fez foi repintar a cor fria das barras da sua grade com tinta epóxi pastel.</p>
+            <p>Eles exigem as suas mais puras 80 horas de juventude letárgica semanal. Em troca disso? Eles lhe oferecem macchiatos servidos por uma máquina italiana, e o impagável direito sublime de sentar na frente do computador usando moletons vagabundos de start-up.</p>
+            <p>O luxo absoluto não é o passe ou a permissão assinada do seu CEO trilionário te deixando acessar o prédio com um vestuário relaxado. O luxo de verdade é investir o seu dinheiro de forma a adquirir uma peça que seja tão absurdamente desproporcional, tão sombriamente assimétrica e profundamente hostil, que o seu "Lead Product Manager" amedrontado não terá um mísero rastro de coragem para fazer, sequer, um desastroso contato visual matinal de elevador com você.</p>
+          </div>
+        </article>
+      </section>
+
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

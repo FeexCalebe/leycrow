@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEYCROW | REQUEST PIECE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/product-CXsO-M_2.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/main-KpNT5GZT.js">
+    <link rel="stylesheet" crossorigin href="/assets/main-ChlXHbr0.css">
+    <link rel="stylesheet" crossorigin href="/assets/product-DfYjBJwM.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+         <a href="/index.html"><img src="/assets/logo_transparent.png" class="nav-logo-img" alt="Leycrow" /></a>
+      </div>
+      <div class="nav-links">
+        <a href="/index.html#origins">DROP 001</a>
+        <a href="/ethos.html">ETHOS</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/magazine.html">MAGAZINE</a>
+      </div>
+    </nav>
+
+    <!-- Product Layout -->
+    <main class="product-page">
+      <!-- Left side: Huge dynamic image -->
+      <div class="product-gallery">
+        <div class="main-image-wrapper">
+          <!-- O JS vai trocar o background aqui -->
+          <div class="product-main-img placeholder-img" id="dynamic-product-img"></div>
+        </div>
+      </div>
+      
+      <!-- Right side: Info and the brutalist form -->
+      <div class="product-details">
+        <div class="details-content">
+          <p class="breadcrumbs">ARCHIVE / <span id="dyn-category">DROP 001</span></p>
+          <h1 class="product-title" id="dyn-title">NAME PLACEHOLDER</h1>
+          <p class="product-desc" id="dyn-desc">Premium description loading...</p>
+          
+          <div class="specs">
+            <p><strong>FABRIC:</strong> <span id="dyn-fabric">Unknown</span></p>
+            <p><strong>CUT:</strong> <span id="dyn-cut">Unknown</span></p>
+            <p><strong>AVAILABILITY:</strong> LIMITED BY REQUEST</p>
+          </div>
+
+          <!-- Request Form -->
+          <div class="request-box">
+             <h3 class="request-title">SUBMIT YOUR INQUIRY</h3>
+             <form class="inquire-form" action="#" onsubmit="event.preventDefault(); alert('Inquiry Sent to Leycrow.');">
+               <input type="text" placeholder="NAME / ALIAS" required />
+               <input type="email" placeholder="ENCRYPTED EMAIL" required />
+               <textarea placeholder="WHY MUST YOU OWN THIS PIECE?" required></textarea>
+               <button type="submit" class="request-btn">SEND REQUEST <span class="arrow">→</span></button>
+             </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>

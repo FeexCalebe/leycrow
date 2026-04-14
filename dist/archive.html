@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEYCROW | ARCHIVE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <style>
+      .archive-page { padding-top: 15rem; min-height: 100vh; }
+      .archive-title { text-align: center; margin-bottom: 5rem; font-family: var(--font-serif); font-size: 3rem; }
+      .archive-list { max-width: 1000px; margin: 0 auto; border-top: 1px solid #333; }
+      .archive-row { display: flex; justify-content: space-between; padding: 2rem 0; border-bottom: 1px solid #333; transition: background 0.3s; cursor: pointer; }
+      .archive-row:hover { background-color: #111; padding-left: 20px; padding-right: 20px; }
+      .row-title { font-family: var(--font-serif); font-size: 1.5rem; }
+      .row-meta { font-family: var(--font-mono); color: var(--text-secondary); }
+    </style>
+    <script type="module" crossorigin src="/assets/main-KpNT5GZT.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main-ChlXHbr0.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" style="background: rgba(0,0,0,0.8); backdrop-filter: blur(10px);">
+      <div class="logo">
+         <a href="/index.html"><img src="/assets/logo_transparent.png" class="nav-logo-img" alt="Leycrow" /></a>
+      </div>
+      <div class="nav-links">
+        <a href="/index.html#origins">DROP 001</a>
+        <a href="/ethos.html">ETHOS</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/magazine.html">MAGAZINE</a>
+      </div>
+    </nav>
+
+    <main class="archive-page">
+      <h1 class="archive-title">THE ARCHIVE</h1>
+      
+      <div class="archive-list">
+        <div class="archive-row" onclick="window.location.href='/index.html#origins'">
+          <span class="row-title">DROP 001 — ORIGINS</span>
+          <span class="row-meta">CURRENT / 2026</span>
+        </div>
+        <div class="archive-row" style="opacity: 0.5; cursor: not-allowed;">
+          <span class="row-title">DROP 002 — [ REDACTED ]</span>
+          <span class="row-meta">UPCOMING</span>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact" style="padding-top: 5rem;">
+      <div class="footer-content">
+        <h2 class="footer-logo glitch-logo" data-text="LEYCROW">LEYCROW</h2>
+        <a href="mailto:request@leycrow.com" class="footer-contact">REQUEST@LEYCROW.COM</a>
+      </div>
+    </footer>
+  </body>
+</html>

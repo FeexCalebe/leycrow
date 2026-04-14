@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEYCROW | Silence is luxury.</title>
+    <!-- Fonts: Cinzel for the High Fashion serif, Space Mono for the Y2K digital feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- Overlay for Initial Loading -->
+    <div class="loader">
+      <div class="loader-text">LEYCROW</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">
+         <a href="#"><img src="/assets/logo_transparent.png" class="nav-logo-img" alt="Leycrow" /></a>
+      </div>
+      <div class="nav-links">
+        <a href="#origins">DROP 001</a>
+        <a href="/ethos.html">ETHOS</a>
+        <a href="/archive.html">ARCHIVE</a>
+        <a href="/magazine.html">MAGAZINE</a>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+      <div class="hero-bg">
+        <!-- We will use the generated image as background here -->
+        <img src="/assets/jacket.png" alt="Leycrow Mood" class="bg-img" id="hero-img"/>
+      </div>
+      <div class="hero-content">
+        <div class="logo-wrapper">
+          <img src="/assets/logo_transparent.png" class="hero-logo-img" alt="Leycrow Logo"/>
+        </div>
+        <h3 class="cult-text">JOIN THE CULT.</h3>
+      </div>
+    </header>
+
+    <!-- Ethos / Manifesto Section -->
+    <section class="ethos" id="about">
+      <div class="ethos-container">
+        <div class="ethos-text-wrapper">
+          <h2 class="ethos-text">
+            <span class="line">COMPRE O SEU</span>
+            <span class="line">DESPREZO SOCIAL.</span>
+          </h2>
+        </div>
+        <p class="ethos-desc">Uma marca visceral o suficiente para assumir seu papel. O nosso desprezo não é por quem constrói o mundo, mas por quem se esconde em coberturas fingindo ser dono dele. Alta costura contra a mediocridade corporativa.</p>
+      </div>
+    </section>
+
+    <!-- Drop 001 Section -->
+    <section class="drop" id="origins">
+      <div class="section-header">
+        <h2 class="chrome-text">DROP 001 — ORIGINS</h2>
+        <p>AUMENTE SUA PEGADA DE CARBONO COM EXCLUSIVIDADE. APENAS SOB DEMANDA.</p>
+      </div>
+      
+      <div class="lookbook-grid">
+        <!-- Item 1 -->
+        <div class="lookbook-item item-large">
+          <div class="image-wrapper">
+             <div class="placeholder-img jacket-img"></div>
+          </div>
+          <div class="item-info">
+            <h3>ASYMMETRIC ZIP JACKET</h3>
+            <span class="price-tag">INQUIRE</span>
+            <button class="request-btn" onclick="window.location.href='/product.html?item=jacket'">REQUEST PIECE <span class="arrow">→</span></button>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="lookbook-item item-medium">
+          <div class="image-wrapper">
+             <div class="placeholder-img hoodie-img"></div>
+          </div>
+          <div class="item-info">
+            <h3>STRUCTURED HOODIE</h3>
+            <span class="price-tag">INQUIRE</span>
+            <button class="request-btn" onclick="window.location.href='/product.html?item=hoodie'">REQUEST PIECE <span class="arrow">→</span></button>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="lookbook-item item-medium">
+          <div class="image-wrapper">
+             <div class="placeholder-img cargo-img"></div>
+          </div>
+          <div class="item-info">
+            <h3>TACTICAL CARGO // 01</h3>
+            <span class="price-tag">INQUIRE</span>
+            <button class="request-btn" onclick="window.location.href='/product.html?item=cargo'">REQUEST PIECE <span class="arrow">→</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <h2 class="footer-logo glitch-logo" data-text="LEYCROW">LEYCROW</h2>
+        <p class="enigma">LEYCROW DOESN'T FOLLOW.</p>
+        <a href="mailto:request@leycrow.com" class="footer-contact">REQUEST@LEYCROW.COM</a>
+      </div>
+      <div class="footer-btm">
+        <span>© 2026 LEYCROW. ALL RIGHTS RESERVED.</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
