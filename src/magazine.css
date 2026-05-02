@@ -141,3 +141,23 @@
     column-count: 1;
   }
 }
+
+@media (max-width: 600px) {
+  .magazine-container {
+    padding: 5rem 1rem 3rem;
+  }
+  .vol-number {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+  .editorial-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .editorial-piece {
+    margin-bottom: 6rem;
+  }
+  .vol-cover {
+    margin-bottom: 4rem;
+  }
+}

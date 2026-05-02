@@ -112,3 +112,11 @@
   .product-page { flex-direction: column; }
   .product-details { padding: 2rem; }
 }
+
+@media (max-width: 600px) {
+  .product-details { padding: 1.5rem 1rem; }
+  .product-title { font-size: 2rem; }
+  .product-desc { font-size: 1rem; }
+  .request-btn { width: 100%; text-align: center; }
+  .product-gallery { padding: 1rem; }
+}

@@ -16,6 +16,13 @@
       .archive-row:hover { background-color: #111; padding-left: 20px; padding-right: 20px; }
       .row-title { font-family: var(--font-serif); font-size: 1.5rem; }
       .row-meta { font-family: var(--font-mono); color: var(--text-secondary); }
+      @media (max-width: 768px) {
+        .archive-page { padding-top: 10rem; padding-left: 1rem; padding-right: 1rem; }
+        .archive-title { font-size: 2rem; margin-bottom: 3rem; }
+        .archive-row { flex-direction: column; gap: 0.5rem; padding: 1.5rem 0; }
+        .row-title { font-size: 1.2rem; }
+        .row-meta { font-size: 0.9rem; }
+      }
     </style>
   </head>
   <body>
